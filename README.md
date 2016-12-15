@@ -11,6 +11,18 @@ Summary: Python requests like API built on top of Twisted's HTTP client
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/treq-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/treq-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/treq-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/treq-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/treq-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/treq-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/treq/badges/version.svg)](https://anaconda.org/conda-forge/treq)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/treq/badges/downloads.svg)](https://anaconda.org/conda-forge/treq)
+
 Installing treq
 ===============
 
@@ -66,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/treq-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/treq-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/treq-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/treq-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/treq-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/treq-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/treq/badges/version.svg)](https://anaconda.org/conda-forge/treq)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/treq/badges/downloads.svg)](https://anaconda.org/conda-forge/treq)
 
 
 Updating treq-feedstock
