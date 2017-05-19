@@ -1,6 +1,6 @@
 {% set name = "treq" %}
-{% set version = "15.1.0" %}
-{% set sha256 = "425a47d5d52a993d51211028fb6ade252e5fbea094e878bb4b644096a7322de8" %}
+{% set version = "17.3.1" %}
+{% set sha256 = "313af6dedecfdde2750968dc17653b6147cf2340b3479d70031cf741f5be0cf6" %}
 
 package:
   name: {{ name|lower }}
@@ -19,11 +19,15 @@ requirements:
   build:
     - python
     - setuptools
+    - incremental
   run:
     - python
     - setuptools
     - requests >=2.1.0
-    - twisted >=14.0.2
+    - twisted >=16.4.0
+    - incremental
+    - six
+    - attrs
 
 test:
   imports:
