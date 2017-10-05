@@ -1,13 +1,12 @@
 {% set name = "treq" %}
-{% set version = "17.3.1" %}
-{% set sha256 = "313af6dedecfdde2750968dc17653b6147cf2340b3479d70031cf741f5be0cf6" %}
+{% set version = "17.8.0" %}
+{% set sha256 = "ef72d2d5e0b24bdf29267b608fa33df0ac401743af8524438b073e1fb2b66f16" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
