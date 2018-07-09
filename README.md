@@ -14,14 +14,15 @@ Summary: Python requests like API built on top of Twisted's HTTP client
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/treq-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/treq-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/treq-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/treq-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/treq-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/treq-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/treq-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/treq-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/treq/badges/version.svg)](https://anaconda.org/conda-forge/treq)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/treq/badges/downloads.svg)](https://anaconda.org/conda-forge/treq)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-treq-green.svg)](https://anaconda.org/conda-forge/treq) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/treq.svg)](https://anaconda.org/conda-forge/treq) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/treq.svg)](https://anaconda.org/conda-forge/treq) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/treq.svg)](https://anaconda.org/conda-forge/treq) |
 
 Installing treq
 ===============
