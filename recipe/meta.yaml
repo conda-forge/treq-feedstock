@@ -1,6 +1,6 @@
 {% set name = "treq" %}
-{% set version = "20.3.0" %}
-{% set sha256 = "a72d7587d6f81c7a32620b00175825b4334bafbde73d37098d139ac7b11dca98" %}
+{% set version = "20.4.1" %}
+{% set sha256 = "68fee7d24c94b7f1432ad8077e22d0d15f957bf6fcf9cb771ff4c6acc7e2bc84" %}
 
 package:
   name: {{ name|lower }}
@@ -26,6 +26,7 @@ requirements:
     - setuptools
     - requests >=2.1.0
     - twisted >=16.4.0
+    - hyperlink >=19.0.0
     - incremental
     - six
     - attrs
