@@ -26,6 +26,7 @@ requirements:
     - setuptools
     - requests >=2.1.0
     - twisted >=16.4.0
+    - hyperlink >=19.0.0
     - incremental
     - six
     - attrs
