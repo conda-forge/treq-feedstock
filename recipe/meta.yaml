@@ -1,6 +1,6 @@
 {% set name = "treq" %}
-{% set version = "20.9.0" %}
-{% set sha256 = "83cd2ca75aef4f1fbdbe144c186426d930c3e8b20385df8cec9e12d442986da2" %}
+{% set version = "21.1.0" %}
+{% set sha256 = "fdae0c872c444ed96c3cb11be8445d22e4afb731e87fdddae3b00c609e77199f" %}
 
 package:
   name: {{ name|lower }}
@@ -13,22 +13,22 @@ source:
 build:
   number: 0
   noarch: python
-  script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
+  script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
   host:
-    - python
+    - python >=2.7
     - pip
     - setuptools
     - incremental
   run:
-    - python
+    - python >=2.7
     - setuptools
     - requests >=2.1.0
-    - twisted >=16.4.0
-    - hyperlink >=19.0.0
+    - twisted >=18.7.0
+    - hyperlink >=21.0.0
     - incremental
-    - six
+    - six >=1.13.0
     - attrs
 
 test:

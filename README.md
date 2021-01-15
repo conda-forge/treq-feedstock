@@ -5,11 +5,13 @@ Home: https://github.com/twisted/treq
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/treq-feedstock/blob/master/LICENSE.txt)
 
 Summary: Python requests like API built on top of Twisted's HTTP client
 
+Development: https://github.com/twisted/treq
 
+Documentation: http://treq.readthedocs.io/
 
 Current build status
 ====================
