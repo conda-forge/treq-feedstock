@@ -17,18 +17,17 @@ build:
 
 requirements:
   host:
-    - python >=2.7
+    - python >=3.6
     - pip
     - setuptools
-    - incremental
+    - incremental >=21.3.0
   run:
-    - python >=2.7
+    - python >=3.6
     - setuptools
     - requests >=2.1.0
     - twisted >=18.7.0
     - hyperlink >=21.0.0
-    - incremental
-    - six >=1.13.0
+    - incremental >=21.3.0
     - attrs
 
 test:
