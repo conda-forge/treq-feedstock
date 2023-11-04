@@ -25,7 +25,7 @@ requirements:
     - python >=3.6
     - setuptools
     - requests >=2.1.0
-    - twisted >=18.7.0
+    - twisted >=22.10.0
     - hyperlink >=21.0.0
     - incremental >=21.3.0
     - attrs
@@ -33,6 +33,10 @@ requirements:
 test:
   imports:
     - treq
+  requires:
+    - pip
+  commands:
+    - pip check
 
 about:
   home: https://github.com/twisted/treq
