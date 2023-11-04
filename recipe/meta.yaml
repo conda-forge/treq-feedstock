@@ -1,6 +1,6 @@
 {% set name = "treq" %}
-{% set version = "22.1.0" %}
-{% set sha256 = "775581604919a3d79c845401598a0fd070cabc6de83840472d8e9fa715f2d36c" %}
+{% set version = "23.11.0" %}
+{% set sha256 = "0914ff929fd1632ce16797235260f8bc19d20ff7c459c1deabd65b8c68cbeac5" %}
 
 package:
   name: {{ name|lower }}
@@ -25,7 +25,7 @@ requirements:
     - python >=3.6
     - setuptools
     - requests >=2.1.0
-    - twisted >=18.7.0
+    - twisted >=22.10.0
     - hyperlink >=21.0.0
     - incremental >=21.3.0
     - attrs
@@ -33,6 +33,10 @@ requirements:
 test:
   imports:
     - treq
+  requires:
+    - pip
+  commands:
+    - pip check
 
 about:
   home: https://github.com/twisted/treq
