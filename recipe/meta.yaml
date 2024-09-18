@@ -1,6 +1,6 @@
 {% set name = "treq" %}
-{% set version = "23.11.0" %}
-{% set sha256 = "0914ff929fd1632ce16797235260f8bc19d20ff7c459c1deabd65b8c68cbeac5" %}
+{% set version = "24.9.0" %}
+{% set sha256 = "5ca76b3632ecb7c2409398e31cf9c810f060f6f5cec8f1685f2af806eb04d1a1" %}
 
 package:
   name: {{ name|lower }}
@@ -22,12 +22,14 @@ requirements:
     - setuptools
     - incremental >=21.3.0
   run:
+    - multipart
+    - typing-extensions >=3.10.0
     - python >=3.6
     - setuptools
     - requests >=2.1.0
     - twisted >=22.10.0
     - hyperlink >=21.0.0
-    - incremental >=21.3.0
+    - incremental
     - attrs
 
 test:
