@@ -1,6 +1,6 @@
 {% set name = "treq" %}
-{% set version = "24.9.0" %}
-{% set sha256 = "5ca76b3632ecb7c2409398e31cf9c810f060f6f5cec8f1685f2af806eb04d1a1" %}
+{% set version = "24.9.1" %}
+{% set sha256 = "15da7fc404f3e4ed59d0abe5f8eef4966fabbe618039a2a23bc7c15305cefea8" %}
 
 package:
   name: {{ name|lower }}
