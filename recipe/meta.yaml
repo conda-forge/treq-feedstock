@@ -18,8 +18,8 @@ requirements:
   host:
     - python {{ python_min }}
     - pip
-    - setuptools
     - incremental >=24.7.2
+    - hatchling
   run:
     - typing_extensions >=3.10.0
     - multipart
