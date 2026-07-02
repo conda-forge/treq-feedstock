@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: treq
-  version: 25.5.0
+  version: 26.7.0
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: 25dde3a55ae85ec2f2c56332c99aef255ab14f997d0d00552ebff13538a9804a
+  sha256: 43e728e12aca2d897c626cf07dc7b4392749b73de050a7d66e086cb3a6e15da9
 
 build:
   number: 0
@@ -27,13 +27,10 @@ requirements:
     - typing_extensions >=3.10.0
     - multipart
     - python >=${{ python_min }}
-    - setuptools
-    - requests >=2.1.0
     - twisted >=22.10.0
     - hyperlink >=21.0.0
     - incremental >=24.7.2
     - attrs
-
 tests:
   - python:
       imports:
@@ -44,7 +41,7 @@ tests:
 about:
   license: MIT
   license_file: LICENSE
-  summary: "Python requests like API built on top of Twisted's HTTP client"
+  summary: Python requests like API built on top of Twisted's HTTP client
   homepage: https://github.com/twisted/treq
   repository: https://github.com/twisted/treq
   documentation: http://treq.readthedocs.io/
